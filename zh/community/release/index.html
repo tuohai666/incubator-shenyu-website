@@ -14,7 +14,7 @@
 <a class=dropdown-item href=http://www.apache.org/events/current-event>Apache Events</a>
 <a class=dropdown-item href=https://www.apache.org/licenses/>Security</a>
 <a class=dropdown-item href=http://www.apache.org/foundation/sponsorship.html>Sponsor and Donate</a>
-<a class=dropdown-item href=http://www.apache.org/foundation/thanks.html>Thanks</a></div></span></div><div class=navbar-end><div class=navbar-item><div id=js-menu-search class=navbar-search><input class=input placeholder=请输入要搜索的关键词><svg class="icon" aria-hidden="true"><use xlink:href="#icon-search"/></svg></div></div><div class=navbar-item><a class=translation href=/community/release/>En</a></div></div></div></nav></header><div class=ss-layout-container><aside class="ss-layout-aside -left ss-card -soft-hidden"><div id=js-drawer class=ss-toc><div id=js-drawer-handle class=drawer-handle><svg class="icon icon-menu" aria-hidden="true"><use xlink:href="#icon-menu"/></svg><svg class="icon icon-close" aria-hidden="true"><use xlink:href="#icon-close"/></svg></div><div class=drawer-body><div class=header title="Apache ShenYu社区">社区</div><div class=body><ul class=leaf-section><li class=item><div class=link><a title=订阅邮件 href=/zh/community/subscribe-email>订阅邮件</a></div></li><li class=item><div class=link><a title=代码规范 href=/zh/community/code-conduct>代码规范</a></div></li><li class=item><div class=link><a title=Issue与PR规范 href=/zh/community/issue-pr>Issue与PR规范</a></div></li><li class=item><div class=link><a title=Contributor指南 href=/zh/community/contributor>Contributor指南</a></div></li><li class=item><div class=link><a title=Committer指南 href=/zh/community/committer>Committer指南</a></div></li><li class=item><div class="link -current"><a title=发布指南 href=/zh/community/release>发布指南</a></div></li><li class=item><div class=link><a title=提名Committer href=/zh/community/vote-committer>提名Committer</a></div></li><li class=item><div class=link><a title=开通双因素认证 href=/zh/community/2fa>开通双因素认证</a></div></li><li class=item><div class=link><a title=签署ICLA href=/zh/community/icla>签署ICLA</a></div></li></ul></div></div></div></aside><main class="ss-layout-main -card"><div class=ss-meta><div class=container><h1 class=title>ShenYu发布指南</h1><a class="edit-button -hidden-mobile" href=https://github.com/apache/incubator-shenyu-website/edit/main/content/zh/community/release/index.md>编辑</a></div><div class=meta>更新时间: 2021-08-03</div></div><article class=typo><h2 id=gpg设置>GPG设置</h2><p><strong>1. 安装GPG</strong></p><p>在<a href=https://www.gnupg.org/download/index.html>GnuPG官网</a>下载安装包。
+<a class=dropdown-item href=http://www.apache.org/foundation/thanks.html>Thanks</a></div></span></div><div class=navbar-end><div class=navbar-item><div id=js-menu-search class=navbar-search><input class=input placeholder=请输入要搜索的关键词><svg class="icon" aria-hidden="true"><use xlink:href="#icon-search"/></svg></div></div><div class=navbar-item><a class=translation href=/community/release/>En</a></div></div></div></nav></header><div class=ss-layout-container><aside class="ss-layout-aside -left ss-card -soft-hidden"><div id=js-drawer class=ss-toc><div id=js-drawer-handle class=drawer-handle><svg class="icon icon-menu" aria-hidden="true"><use xlink:href="#icon-menu"/></svg><svg class="icon icon-close" aria-hidden="true"><use xlink:href="#icon-close"/></svg></div><div class=drawer-body><div class=header title="Apache ShenYu社区">社区</div><div class=body><ul class=leaf-section><li class=item><div class=link><a title=订阅邮件 href=/zh/community/subscribe-email>订阅邮件</a></div></li><li class=item><div class=link><a title=代码规范 href=/zh/community/code-conduct>代码规范</a></div></li><li class=item><div class=link><a title=Issue与PR规范 href=/zh/community/issue-pr>Issue与PR规范</a></div></li><li class=item><div class=link><a title=Contributor指南 href=/zh/community/contributor>Contributor指南</a></div></li><li class=item><div class=link><a title=Committer指南 href=/zh/community/committer>Committer指南</a></div></li><li class=item><div class="link -current"><a title=发布指南 href=/zh/community/release>发布指南</a></div></li><li class=item><div class=link><a title=提名Committer href=/zh/community/vote-committer>提名Committer</a></div></li><li class=item><div class=link><a title=开通双因素认证 href=/zh/community/2fa>开通双因素认证</a></div></li><li class=item><div class=link><a title=签署ICLA href=/zh/community/icla>签署ICLA</a></div></li></ul></div></div></div></aside><main class="ss-layout-main -card"><div class=ss-meta><div class=container><h1 class=title>ShenYu发布指南</h1><a class="edit-button -hidden-mobile" href=https://github.com/apache/incubator-shenyu-website/edit/main/content/zh/community/release/index.md>编辑</a></div><div class=meta>更新时间: 2021-08-01</div></div><article class=typo><h2 id=gpg设置>GPG设置</h2><p><strong>1. 安装GPG</strong></p><p>在<a href=https://www.gnupg.org/download/index.html>GnuPG官网</a>下载安装包。
 GnuPG的1.x版本和2.x版本的命令有细微差别，下列说明以<code>GnuPG-2.1.23</code>版本为例。</p><p>安装完成后，执行以下命令查看版本号。</p><pre><code class=language-shell>gpg --version
 </code></pre><p><strong>2. 创建key</strong></p><p>安装完成后，执行以下命令创建key。</p><p><code>GnuPG-2.x</code>可使用：</p><pre><code class=language-shell>gpg --full-gen-key
 </code></pre><p><code>GnuPG-1.x</code>可使用：</p><pre><code class=language-shell>gpg --gen-key
@@ -73,7 +73,7 @@ sub   4096R/0B7EF5B2 2019-03-20
 &lt;/settings&gt;
 </code></pre><p><strong>2. 更新版本说明</strong></p><p>更新如下文件，并提交PR到主干：</p><pre><code>https://github.com/apache/incubator-shenyu/blob/master/RELEASE-NOTES.md
 </code></pre><p><strong>3. 创建发布分支</strong></p><p>假设从GitHub下载的ShenYu源代码在<code>~/shenyu/</code>目录；假设即将发布的版本为<code>${RELEASE.VERSION}</code>。
-创建<code>${RELEASE.VERSION}-release</code>分支，接下来的操作都在该分支进行。</p><pre><code class=language-shell># ${name}为源码所在分支，如：master，main
+创建<code>${RELEASE.VERSION}-release</code>分支，接下来的操作都在该分支进行。</p><pre><code class=language-shell>## ${name}为源码所在分支，如：master，main
 git clone --branch ${name} https://github.com/apache/incubator-shenyu.git ~/shenyu
 cd ~/shenyu/
 git pull
@@ -104,7 +104,7 @@ cp -f ~/incubator-shenyu/shenyu-dist/shenyu-admin-dist/target/*.tar.gz.asc ~/she
 </code></pre><p><strong>4. 生成文件签名</strong></p><pre><code class=language-shell>shasum -a 512 apache-shenyu-incubating-${RELEASE.VERSION}-src.zip &gt; apache-shenyu-incubating-${RELEASE.VERSION}-src.zip.sha512
 shasum -b -a 512 apache-shenyu-incubating-${RELEASE.VERSION}-bootstrap-bin.tar.gz &gt; apache-shenyu-incubating-${RELEASE.VERSION}-bootstrap-bin.tar.gz.sha512
 shasum -b -a 512 apache-shenyu-incubating-${RELEASE.VERSION}-admin-bin.tar.gz &gt; apache-shenyu-incubating-${RELEASE.VERSION}-admin-bin.tar.gz.sha512
-</code></pre><p><strong>5. 提交Apache SVN</strong></p><pre><code class=language-shell>cd ~/shenyu_svn/dev/shenyu
+</code></pre><p><strong>5. 提交Apache SVN</strong></p><pre><code class=language-shell>cd ..
 svn add *
 svn --username=${APACHE LDAP 用户名} commit -m &quot;release ${RELEASE.VERSION}&quot;
 </code></pre><h2 id=检查发布结果>检查发布结果</h2><p><strong>检查sha512哈希</strong></p><pre><code class=language-shell>shasum -c apache-shenyu-incubating-${RELEASE.VERSION}-src.zip.sha512
@@ -138,9 +138,8 @@ diff -r -x &quot;shenyu-dashboard&quot; -x &quot;shenyu-examples&quot; -x &quot;
 </code></pre><p><strong>检查源码包的文件内容</strong></p><ul><li>检查源码包是否包含由于包含不必要文件，致使tarball过于庞大</li><li>文件夹包含单词<code>incubating</code></li><li>存在<code>LICENSE</code>和<code>NOTICE</code>文件</li><li>存在<code>DISCLAIMER</code>文件</li><li><code>NOTICE</code>文件中的年份正确</li><li>只存在文本文件，不存在二进制文件</li><li>所有文件的开头都有ASF许可证</li><li>能够正确编译，单元测试可以通过 (./mvnw install) (目前支持JAVA 8)</li><li>检查是否有多余文件或文件夹，例如空文件夹等</li></ul><p><strong>检查二进制包的文件内容</strong></p><p>解压缩
 <code>apache-shenyu-incubating-${RELEASE.VERSION}-bootstrap-bin.tar.gz</code>，
 <code>apache-shenyu-incubating-${RELEASE.VERSION}-admin-bin.tar.gz</code>
-进行如下检查:</p><ul><li>文件夹包含单词<code>incubating</code></li><li>存在<code>LICENSE</code>和<code>NOTICE</code>文件</li><li>存在<code>DISCLAIMER</code>文件</li><li><code>NOTICE</code>文件中的年份正确</li><li>所有文本文件开头都有ASF许可证</li><li>检查第三方依赖许可证：<ul><li>第三方依赖的许可证兼容</li><li>所有第三方依赖的许可证都在<code>LICENSE</code>文件中声名</li><li>依赖许可证的完整版全部在<code>license</code>目录</li><li>如果依赖的是Apache许可证并且存在<code>NOTICE</code>文件，那么这些<code>NOTICE</code>文件也需要加入到版本的<code>NOTICE</code>文件中</li></ul></li></ul><h2 id=发起投票>发起投票</h2><p><strong>投票阶段</strong></p><ol><li><p>ShenYu社区投票，发起投票邮件到<code>dev@shenyu.apache.org</code>。PPMC成员需要先按照文档检查版本的正确性，然后再进行投票。
-经过至少72小时并统计到3个<code>+1 mentor</code>票后，即可进入下一阶段的投票。</p></li><li><p>宣布投票结果，发起投票结果邮件到<code>dev@shenyu.apache.org</code>。</p></li><li><p>Incubator社区投票，发起投票邮件到<code>general@incubator.apache.org</code>。
-经过至少72小时并统计到3个<code>+1 binding</code>票后，即可宣布投票结果。</p></li><li><p>宣布投票结果，发起投票结果邮件到<code>general@incubator.apache.org</code>。</p></li></ol><p><strong>投票模板</strong></p><ol><li>ShenYu社区投票模板</li></ol><p>标题：</p><pre><code>[VOTE] Release Apache ShenYu (incubating) ${RELEASE.VERSION}
+进行如下检查:</p><ul><li>文件夹包含单词<code>incubating</code></li><li>存在<code>LICENSE</code>和<code>NOTICE</code>文件</li><li>存在<code>DISCLAIMER</code>文件</li><li><code>NOTICE</code>文件中的年份正确</li><li>所有文本文件开头都有ASF许可证</li><li>检查第三方依赖许可证：<ul><li>第三方依赖的许可证兼容</li><li>所有第三方依赖的许可证都在<code>LICENSE</code>文件中声名</li><li>依赖许可证的完整版全部在<code>license</code>目录</li><li>如果依赖的是Apache许可证并且存在<code>NOTICE</code>文件，那么这些<code>NOTICE</code>文件也需要加入到版本的<code>NOTICE</code>文件中</li></ul></li></ul><h2 id=发起投票>发起投票</h2><p><strong>投票阶段</strong></p><ol><li><p>ShenYu社区投票，发起投票邮件到<code>dev@shenyu.apache.org</code>。PMC需要先按照文档检查版本的正确性，然后再进行投票。
+经过至少72小时并统计到3个<code>+1 PMC member</code>票后，即可进入下一阶段的投票。</p></li><li><p>宣布投票结果,发起投票结果邮件到<code>dev@shenyu.apache.org</code>。</p></li></ol><p><strong>投票模板</strong></p><ol><li>ShenYu社区投票模板</li></ol><p>标题：</p><pre><code>[VOTE] Release Apache ShenYu (incubating) ${RELEASE.VERSION}
 </code></pre><p>正文：</p><pre><code>Hello ShenYu Community,
 
 This is a call for vote to release Apache ShenYu (incubating) version ${RELEASE.VERSION}
@@ -192,96 +191,12 @@ Checklist for reference:
 [ ] All files have license headers if necessary.
 
 [ ] No compiled archives bundled in source archive.
-</code></pre><ol><li>宣布投票结果模板</li></ol><p>标题：</p><pre><code>[RESULT][VOTE] Release Apache ShenYu (incubating) ${RELEASE.VERSION}
-</code></pre><p>正文：</p><pre><code>We’ve received 7 +1 votes:
+</code></pre><ol><li>宣布投票结果模板：</li></ol><p>标题：</p><pre><code>[RESULT][VOTE] Release Apache ShenYu (incubating) ${RELEASE.VERSION}
+</code></pre><p>正文：</p><pre><code>We’ve received 3 +1 votes:
 
 +1, xxx (mentor)
-+1, xxx (mentor)
-+1, xxx (mentor)
-+1, xxx (ppmc)
-+1, xxx (ppmc)
-+1, xxx (ppmc)
-+1, xxx (ppmc)
-
-Thank you everyone for taking the time to review the release and help us. 
-</code></pre><ol><li>Incubator社区投票模板</li></ol><p>标题：</p><pre><code>[VOTE] Release Apache ShenYu (incubating) ${RELEASE.VERSION}
-</code></pre><p>正文：</p><pre><code>Hello Incubator Community,
-
-This is a call for vote to release Apache ShenYu (incubating) version ${RELEASE.VERSION}
-
-The Apache ShenYu community has voted on and approved a proposal to release 
-Apache ShenYu (incubating) version ${RELEASE.VERSION}.
-
-We now kindly request the Incubator PMC members review and vote on this
-incubator release.
-
-ShenYu community vote thread:
-https://lists.apache.org/thread.html/xxxxxxxxxxxxxxxxxxxxxxx
-
-Vote result thread:
-https://lists.apache.org/thread.html/xxxxxxxxxxxxxxxxxxxxxxx
-
-Release notes:
-https://github.com/apache/incubator-shenyu/blob/master/RELEASE-NOTES.md
-
-The release candidates:
-https://dist.apache.org/repos/dist/dev/incubator/shenyu/${RELEASE.VERSION}/
-
-Maven 2 staging repository:
-https://repository.apache.org/content/repositories/${STAGING.REPOSITORY}/org/apache/shenyu/
-
-Git tag for the release:
-https://github.com/apache/incubator-shenyu/tree/${RELEASE.VERSION}/
-
-Release Commit ID:
-https://github.com/apache/incubator-shenyu/commit/xxxxxxxxxxxxxxxxxxxxxxx
-
-Keys to verify the Release Candidate:
-https://dist.apache.org/repos/dist/dev/incubator/shenyu/KEYS
-
-Look at here for how to verify this release candidate:
-https://shenyu.apache.org/community/release/#check-release
-
-GPG user ID:
-${YOUR.GPG.USER.ID}
-
-The vote will be open for at least 72 hours or until necessary number of votes are reached.
-
-Please vote accordingly:
-
-[ ] +1 approve 
-
-[ ] +0 no opinion
- 
-[ ] -1 disapprove with the reason
-
-Checklist for reference:
-
-[ ] Download links are valid.
-
-[ ] Checksums and PGP signatures are valid.
-
-[ ] Source code distributions have correct names matching the current release.
-
-[ ] LICENSE and NOTICE files are correct for each ShenYu repo.
-
-[ ] All files have license headers if necessary.
-
-[ ] No compiled archives bundled in source archive.
-</code></pre><ol><li>宣布投票结果模板</li></ol><p>标题：</p><pre><code>[RESULT][VOTE] Release Apache ShenYu (incubating) ${RELEASE.VERSION}
-</code></pre><p>正文：</p><pre><code>We’ve received 3 +1 binding and 5 + 1 non-binding votes, no +0 or -1 votes.
-
-+1, xxx (+1 binding)
-+1, xxx (+1 binding)
-+1, xxx (+1 binding)
-+1, xxx (+ 1 non-binding)
-+1, xxx (+ 1 non-binding)
-+1, xxx (+ 1 non-binding)
-+1, xxx (+ 1 non-binding)
-+1, xxx (+ 1 non-binding)
-
-The voting thread is:
-https://lists.apache.org/thread.html/xxxxxxxxxxxxxxxxxxxxxxx
++1, xxx
++1, xxx
 
 Thank you everyone for taking the time to review the release and help us. 
 I will process to publish the release and send ANNOUNCE.
