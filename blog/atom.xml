@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://shenyu.apache.org/blog</id>
+    <title>Apache ShenYu (Incubating) Blog</title>
+    <updated>2021-09-13T09:41:24.187Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://shenyu.apache.org/blog"/>
+    <subtitle>Apache ShenYu (Incubating) Blog</subtitle>
+    <icon>https://shenyu.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[PredicateJudge -- analyze the design based on SPI]]></title>
+        <id>PredicateJudge-SPI</id>
+        <link href="https://shenyu.apache.org/blog/PredicateJudge-SPI"/>
+        <updated>2021-09-13T09:41:24.187Z</updated>
+        <summary type="html"><![CDATA[Apache Shenyu has been identified as a gateway application which supports a variety of protocols and  microservice frameworks such as  Dubbo, gRPC, Spring-Cloud, etc.  To do this, the product has accomplished an elegant SPI (Service Provider Interface) as its foundation, and make the  Rule data parsing and predicting program very simple , resiliency and security. As to rule data parsing processing,  the SPI design increases the product's scalability. When appending new plugin, in most cases, the   existing module is enough for rule data parsing , otherwise it can be rapidly carry out with tiny effort.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache ShenYu Start Demo]]></title>
+        <id>start-demo</id>
+        <link href="https://shenyu.apache.org/blog/start-demo"/>
+        <updated>2021-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Environmental preparation]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code Analysis For Param-Mapping Plugin]]></title>
+        <id>code-analysis-param-mapping</id>
+        <link href="https://shenyu.apache.org/blog/code-analysis-param-mapping"/>
+        <updated>2021-09-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Before starting, you can refer to this article to start the gateway]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code Analysis For Context-Path Plugin]]></title>
+        <id>code-analysis-context-path</id>
+        <link href="https://shenyu.apache.org/blog/code-analysis-context-path"/>
+        <updated>2021-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Before starting, you can refer to this article to start the gateway]]></summary>
+    </entry>
+</feed>

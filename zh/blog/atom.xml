@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://shenyu.apache.org/zh/blog</id>
+    <title>Apache ShenYu (Incubating) Blog</title>
+    <updated>2021-09-13T09:41:24.195Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://shenyu.apache.org/zh/blog"/>
+    <subtitle>Apache ShenYu (Incubating) Blog</subtitle>
+    <icon>https://shenyu.apache.org/zh/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[PredicateJudge-- 基于SPI的设计实现分析]]></title>
+        <id>PredicateJudge-SPI</id>
+        <link href="https://shenyu.apache.org/zh/blog/PredicateJudge-SPI"/>
+        <updated>2021-09-13T09:41:24.195Z</updated>
+        <summary type="html"><![CDATA[灵活的插件和规则定义，是Shenyu网关的一大特色。它以插件形式支持多种网络协议和多种流行的微服务框架，如Dubbo, gRPC和 Spring-Cloud 等。 为了实现对各种协议及插件的配置规则的解析，网关在规则策略解析方面，采用了优雅的SPI(Service Provider Interface)实现，当添加新的插件时，规则解析部分可以沿用现有实现或采用SPI机制快速实现，具有良好的可扩展性。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache ShenYu 启动示例]]></title>
+        <id>start-demo</id>
+        <link href="https://shenyu.apache.org/zh/blog/start-demo"/>
+        <updated>2021-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[环境准备]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Param-Mapping插件源码分析]]></title>
+        <id>code-analysis-param-mapping</id>
+        <link href="https://shenyu.apache.org/zh/blog/code-analysis-param-mapping"/>
+        <updated>2021-09-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[开始前，可以参考 这篇文章 运行shenyu网关]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Context-Path插件源码分析]]></title>
+        <id>code-analysis-context-path</id>
+        <link href="https://shenyu.apache.org/zh/blog/code-analysis-context-path"/>
+        <updated>2021-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[开始前，可以参考 这篇文章 运行shenyu网关]]></summary>
+    </entry>
+</feed>

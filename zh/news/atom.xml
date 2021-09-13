@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://shenyu.apache.org/zh/news</id>
+    <title>Apache ShenYu (Incubating) Blog</title>
+    <updated>2021-09-08T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://shenyu.apache.org/zh/news"/>
+    <subtitle>Apache ShenYu (Incubating) Blog</subtitle>
+    <icon>https://shenyu.apache.org/zh/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[【从用户到Committer，参与Apache ShenYu社区并不遥远】]]></title>
+        <id>【从用户到Committer，参与Apache ShenYu社区并不遥远】</id>
+        <link href="https://shenyu.apache.org/zh/news/Apache-ShenYu-Committer-2021-09-08"/>
+        <updated>2021-09-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[从用户到Committer，参与Apache ShenYu社区并不遥远]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【发布Apache首个版本-2.4.0】让API网关变得简单]]></title>
+        <id>【发布Apache首个版本-2.4.0】让API网关变得简单</id>
+        <link href="https://shenyu.apache.org/zh/news/Apache-ShenYu-release-milestone-version-2.4.0"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[发布Apache首个版本-2.4.0，让API网关变得简单]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【毕业一年我是如何成为Apache ShenYu Committer】]]></title>
+        <id>【毕业一年我是如何成为Apache ShenYu Committer】</id>
+        <link href="https://shenyu.apache.org/zh/news/Apache-ShenYu-Committer-2021-07-27"/>
+        <updated>2021-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[毕业一年成长成为Apache ShenYu Committer]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Soul 网关发布里程碑的2.3.0版本】新增支持GRPC，Tars，Sofa协议]]></title>
+        <id>【Soul 网关发布里程碑的2.3.0版本】新增支持GRPC，Tars，Sofa协议</id>
+        <link href="https://shenyu.apache.org/zh/news/Soul-gateway-release-milestone-version-2.3.0"/>
+        <updated>2020-07-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Soul 网关发布里程碑的2.3.0版本，新增支持GRPC，Tars，Sofa协议]]></summary>
+    </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Apache ShenYu (Incubating) Blog</title>
+        <link>https://shenyu.apache.org/zh/blog</link>
+        <description>Apache ShenYu (Incubating) Blog</description>
+        <lastBuildDate>Mon, 13 Sep 2021 09:41:24 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[PredicateJudge-- 基于SPI的设计实现分析]]></title>
+            <link>https://shenyu.apache.org/zh/blog/PredicateJudge-SPI</link>
+            <guid>PredicateJudge-SPI</guid>
+            <pubDate>Mon, 13 Sep 2021 09:41:24 GMT</pubDate>
+            <description><![CDATA[灵活的插件和规则定义，是Shenyu网关的一大特色。它以插件形式支持多种网络协议和多种流行的微服务框架，如Dubbo, gRPC和 Spring-Cloud 等。 为了实现对各种协议及插件的配置规则的解析，网关在规则策略解析方面，采用了优雅的SPI(Service Provider Interface)实现，当添加新的插件时，规则解析部分可以沿用现有实现或采用SPI机制快速实现，具有良好的可扩展性。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Apache ShenYu 启动示例]]></title>
+            <link>https://shenyu.apache.org/zh/blog/start-demo</link>
+            <guid>start-demo</guid>
+            <pubDate>Mon, 06 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[环境准备]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Param-Mapping插件源码分析]]></title>
+            <link>https://shenyu.apache.org/zh/blog/code-analysis-param-mapping</link>
+            <guid>code-analysis-param-mapping</guid>
+            <pubDate>Sun, 05 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[开始前，可以参考 这篇文章 运行shenyu网关]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Context-Path插件源码分析]]></title>
+            <link>https://shenyu.apache.org/zh/blog/code-analysis-context-path</link>
+            <guid>code-analysis-context-path</guid>
+            <pubDate>Fri, 20 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[开始前，可以参考 这篇文章 运行shenyu网关]]></description>
+        </item>
+    </channel>
+</rss>

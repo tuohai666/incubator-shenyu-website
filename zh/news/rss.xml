@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Apache ShenYu (Incubating) Blog</title>
+        <link>https://shenyu.apache.org/zh/news</link>
+        <description>Apache ShenYu (Incubating) Blog</description>
+        <lastBuildDate>Wed, 08 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[【从用户到Committer，参与Apache ShenYu社区并不遥远】]]></title>
+            <link>https://shenyu.apache.org/zh/news/Apache-ShenYu-Committer-2021-09-08</link>
+            <guid>【从用户到Committer，参与Apache ShenYu社区并不遥远】</guid>
+            <pubDate>Wed, 08 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[从用户到Committer，参与Apache ShenYu社区并不遥远]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【发布Apache首个版本-2.4.0】让API网关变得简单]]></title>
+            <link>https://shenyu.apache.org/zh/news/Apache-ShenYu-release-milestone-version-2.4.0</link>
+            <guid>【发布Apache首个版本-2.4.0】让API网关变得简单</guid>
+            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[发布Apache首个版本-2.4.0，让API网关变得简单]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【毕业一年我是如何成为Apache ShenYu Committer】]]></title>
+            <link>https://shenyu.apache.org/zh/news/Apache-ShenYu-Committer-2021-07-27</link>
+            <guid>【毕业一年我是如何成为Apache ShenYu Committer】</guid>
+            <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[毕业一年成长成为Apache ShenYu Committer]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【Soul 网关发布里程碑的2.3.0版本】新增支持GRPC，Tars，Sofa协议]]></title>
+            <link>https://shenyu.apache.org/zh/news/Soul-gateway-release-milestone-version-2.3.0</link>
+            <guid>【Soul 网关发布里程碑的2.3.0版本】新增支持GRPC，Tars，Sofa协议</guid>
+            <pubDate>Sun, 05 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Soul 网关发布里程碑的2.3.0版本，新增支持GRPC，Tars，Sofa协议]]></description>
+        </item>
+    </channel>
+</rss>
