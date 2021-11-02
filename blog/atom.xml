@@ -2,65 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shenyu.apache.org/blog</id>
     <title>Apache ShenYu (Incubating) Blog</title>
-    <updated>2021-10-26T06:19:27.995Z</updated>
+    <updated>2021-11-02T10:23:26.601Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shenyu.apache.org/blog"/>
     <subtitle>Apache ShenYu (Incubating) Blog</subtitle>
     <icon>https://shenyu.apache.org/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[ZooKeeper Data Synchronization Source Code Analysis]]></title>
-        <id>code-analysis-zookeeper-data-sync</id>
-        <link href="https://shenyu.apache.org/blog/code-analysis-zookeeper-data-sync"/>
-        <updated>2021-10-26T06:19:27.995Z</updated>
-        <summary type="html"><![CDATA[Apache ShenYu is an asynchronous, high-performance, cross-language, responsive API gateway.]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Code Analysis For Context-Path Plugin]]></title>
         <id>code-analysis-context-path</id>
         <link href="https://shenyu.apache.org/blog/code-analysis-context-path"/>
-        <updated>2021-10-26T06:19:27.991Z</updated>
+        <updated>2021-11-02T10:23:26.601Z</updated>
         <summary type="html"><![CDATA[Before starting, you can refer to this article to start the gateway]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Http Long Polling Data Synchronization Source Code Analysis]]></title>
+        <id>code-analysis-http-data-sync</id>
+        <link href="https://shenyu.apache.org/blog/code-analysis-http-data-sync"/>
+        <updated>2021-11-02T10:23:26.601Z</updated>
+        <summary type="html"><![CDATA[Apache ShenYu is an asynchronous, high-performance, cross-language, responsive API gateway.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[LoadBalance SPI Source Code Analysis]]></title>
         <id>code-analysis-loadbalance-spi</id>
         <link href="https://shenyu.apache.org/blog/code-analysis-loadbalance-spi"/>
-        <updated>2021-10-26T06:19:27.991Z</updated>
+        <updated>2021-11-02T10:23:26.601Z</updated>
         <summary type="html"><![CDATA[Gateway applications need to support a variety of load balancing  strategies, including random,Hashing, RoundRobin and so on. In Apache Shenyu gateway, it not only realizes such traditional algorithms, but also makes smoother traffic processing for the entry of server nodes through detailed processing such as traffic warm-up, so as to obtain better overall stability. In this article, let's walk through how Apache Shenyu is designed and implemented this part of the function.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MatchStrategy  -- analyze the design based on SPI]]></title>
+        <id>MatchStrategy-SPI</id>
+        <link href="https://shenyu.apache.org/blog/MatchStrategy-SPI"/>
+        <updated>2021-11-02T10:23:26.601Z</updated>
+        <summary type="html"><![CDATA[In most of the plugins ( such as Dubbo, gRPC,Spring-cloud, etc) of Apache Shenyu, the routingparameters are designed to support the combination of multiple conditions. In order to realize such requirements,  the parameters and behaviors are abstracted to three parts according to its SPI mechanism,  and implemented in shenyu-plugin-base  module.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Code Analysis For Param-Mapping Plugin]]></title>
         <id>code-analysis-param-mapping</id>
         <link href="https://shenyu.apache.org/blog/code-analysis-param-mapping"/>
-        <updated>2021-10-26T06:19:27.991Z</updated>
+        <updated>2021-11-02T10:23:26.601Z</updated>
         <summary type="html"><![CDATA[Before starting, you can refer to this article to start the gateway]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[PredicateJudge -- analyze the design based on SPI]]></title>
         <id>PredicateJudge-SPI</id>
         <link href="https://shenyu.apache.org/blog/PredicateJudge-SPI"/>
-        <updated>2021-10-26T06:19:27.991Z</updated>
+        <updated>2021-11-02T10:23:26.601Z</updated>
         <summary type="html"><![CDATA[Apache Shenyu has been identified as a gateway application which supports a variety of protocols and  microservice frameworks such as  Dubbo, gRPC, Spring-Cloud, etc.  To do this, the product has accomplished an elegant SPI (Service Provider Interface) as its foundation, and make the  Rule data parsing and predicting program very simple , resiliency and security. As to rule data parsing processing,  the SPI design increases the product's scalability. When appending new plugin, in most cases, the   existing module is enough for rule data parsing , otherwise it can be rapidly carry out with tiny effort.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Apache ShenYu Start Demo]]></title>
         <id>start-demo</id>
         <link href="https://shenyu.apache.org/blog/start-demo"/>
-        <updated>2021-10-26T06:19:27.991Z</updated>
+        <updated>2021-11-02T10:23:26.601Z</updated>
         <summary type="html"><![CDATA[Environmental preparation]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[WebSocket Data Synchronization Source Code Analysis]]></title>
         <id>code-analysis-websocket-data-sync</id>
         <link href="https://shenyu.apache.org/blog/code-analysis-websocket-data-sync"/>
-        <updated>2021-10-26T06:19:27.991Z</updated>
+        <updated>2021-11-02T10:23:26.601Z</updated>
         <summary type="html"><![CDATA[In ShenYu gateway, data synchronization refers to how to synchronize the updated data to the gateway after the data is sent in the background management system. The Apache ShenYu gateway currently supports data synchronization for ZooKeeper, WebSocket, http long poll, Nacos, etcd and Consul. The main content of this article is based on WebSocket data synchronization source code analysis.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MatchStrategy  -- analyze the design based on SPI]]></title>
-        <id>MatchStrategy-SPI</id>
-        <link href="https://shenyu.apache.org/blog/MatchStrategy-SPI"/>
-        <updated>2021-10-26T06:19:27.991Z</updated>
-        <summary type="html"><![CDATA[In most of the plugins ( such as Dubbo, gRPC,Spring-cloud, etc) of Apache Shenyu, the routingparameters are designed to support the combination of multiple conditions. In order to realize such requirements,  the parameters and behaviors are abstracted to three parts according to its SPI mechanism,  and implemented in shenyu-plugin-base  module.]]></summary>
+        <title type="html"><![CDATA[ZooKeeper Data Synchronization Source Code Analysis]]></title>
+        <id>code-analysis-zookeeper-data-sync</id>
+        <link href="https://shenyu.apache.org/blog/code-analysis-zookeeper-data-sync"/>
+        <updated>2021-11-02T10:23:26.601Z</updated>
+        <summary type="html"><![CDATA[Apache ShenYu is an asynchronous, high-performance, cross-language, responsive API gateway.]]></summary>
     </entry>
 </feed>
