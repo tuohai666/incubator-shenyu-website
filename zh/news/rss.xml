@@ -4,9 +4,16 @@
         <title>Apache ShenYu (Incubating) Blog</title>
         <link>https://shenyu.apache.org/zh/news</link>
         <description>Apache ShenYu (Incubating) Blog</description>
-        <lastBuildDate>Wed, 08 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[【Apache ShenYu(incubating）新晋PPMC】]]></title>
+            <link>https://shenyu.apache.org/zh/news/Apache-ShenYu-PPMC-2021-11-05</link>
+            <guid>【Apache ShenYu(incubating）新晋PPMC】</guid>
+            <pubDate>Fri, 05 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apache ShenYu(incubating）新晋PPMC]]></description>
+        </item>
         <item>
             <title><![CDATA[【从用户到Committer，参与Apache ShenYu社区并不遥远】]]></title>
             <link>https://shenyu.apache.org/zh/news/Apache-ShenYu-Committer-2021-09-08</link>
