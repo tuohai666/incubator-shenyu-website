@@ -4,9 +4,16 @@
         <title>Apache ShenYu (Incubating) Blog</title>
         <link>https://shenyu.apache.org/news</link>
         <description>Apache ShenYu (Incubating) Blog</description>
-        <lastBuildDate>Fri, 05 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[[From users to Committer, different experiences and gains]]]></title>
+            <link>https://shenyu.apache.org/news/Apache-ShenYu-Committer-2021-11-11</link>
+            <guid>[From users to Committer, different experiences and gains]</guid>
+            <pubDate>Thu, 11 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[From users to Committer, different experiences and gains]]></description>
+        </item>
         <item>
             <title><![CDATA[[Apache ShenYu(incubating) newly promoted PPMC]]]></title>
             <link>https://shenyu.apache.org/news/Apache-ShenYu-PPMC-2021-11-05</link>
