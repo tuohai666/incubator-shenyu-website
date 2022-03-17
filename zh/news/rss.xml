@@ -4,9 +4,16 @@
         <title>Apache ShenYu (Incubating) Blog</title>
         <link>https://shenyu.apache.org/zh/news</link>
         <description>Apache ShenYu (Incubating) Blog</description>
-        <lastBuildDate>Thu, 11 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[【从在校生到Apache Committer之路】]]></title>
+            <link>https://shenyu.apache.org/zh/news/Apache-ShenYu-Committer-2021-12-08</link>
+            <guid>【从在校生到Apache Committer之路】</guid>
+            <pubDate>Wed, 08 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The way from College Student to Apache Committer]]></description>
+        </item>
         <item>
             <title><![CDATA[【从用户到Committer，别样体验和收获】]]></title>
             <link>https://shenyu.apache.org/zh/news/Apache-ShenYu-Committer-2021-11-11</link>
@@ -41,6 +48,13 @@
             <guid>【毕业一年我是如何成为Apache ShenYu Committer】</guid>
             <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[毕业一年成长成为Apache ShenYu Committer]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【技术老兵的开源之路】]]></title>
+            <link>https://shenyu.apache.org/zh/news/Apache-ShenYu-Committer-2022-02-28</link>
+            <guid>【技术老兵的开源之路】</guid>
+            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Open Source Path for Tech Veterans]]></description>
         </item>
         <item>
             <title><![CDATA[【Soul 网关发布里程碑的2.3.0版本】新增支持GRPC，Tars，Sofa协议]]></title>

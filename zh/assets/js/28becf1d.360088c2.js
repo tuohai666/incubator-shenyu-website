@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshenyu_website=self.webpackChunkshenyu_website||[]).push([[9934],{91586:function(e){e.exports=JSON.parse('{"allTagsPath":"/zh/blog/tags","slug":"agent","name":"agent","count":1,"permalink":"/zh/blog/tags/agent"}')}}]);

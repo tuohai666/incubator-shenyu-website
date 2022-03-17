@@ -4,9 +4,16 @@
         <title>Apache ShenYu (Incubating) Blog</title>
         <link>https://shenyu.apache.org/news</link>
         <description>Apache ShenYu (Incubating) Blog</description>
-        <lastBuildDate>Thu, 11 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[[The way from University Student to Apache Committer]]]></title>
+            <link>https://shenyu.apache.org/news/Apache-ShenYu-Committer-2021-12-08</link>
+            <guid>[The way from University Student to Apache Committer]</guid>
+            <pubDate>Wed, 08 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The way from College Student to Apache Committer]]></description>
+        </item>
         <item>
             <title><![CDATA[[From users to Committer, different experiences and gains]]]></title>
             <link>https://shenyu.apache.org/news/Apache-ShenYu-Committer-2021-11-11</link>
@@ -41,6 +48,13 @@
             <guid>[How I became an Apache ShenYu Committer one year after graduation]</guid>
             <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[How I became an Apache ShenYu Committer one year after graduation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[The Open Source Path for Tech Veterans]]]></title>
+            <link>https://shenyu.apache.org/news/Apache-ShenYu-Committer-2022-02-28</link>
+            <guid>[The Open Source Path for Tech Veterans]</guid>
+            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Open Source Path for Tech Veterans]]></description>
         </item>
         <item>
             <title><![CDATA[【Soul gateway release milestone version 2.3.0】New support for grpc, tars and sofa protocols!]]></title>
