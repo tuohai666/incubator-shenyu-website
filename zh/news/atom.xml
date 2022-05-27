@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shenyu.apache.org/zh/news</id>
     <title>Apache ShenYu (Incubating) Blog</title>
-    <updated>2021-12-08T00:00:00.000Z</updated>
+    <updated>2022-04-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shenyu.apache.org/zh/news"/>
     <subtitle>Apache ShenYu (Incubating) Blog</subtitle>
-    <icon>https://shenyu.apache.org/zh/img/favicon.ico</icon>
+    <icon>https://shenyu.apache.org/zh/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[【你也可以成为Apache ShenYu Committer】]]></title>
+        <id>【你也可以成为Apache ShenYu Committer】</id>
+        <link href="https://shenyu.apache.org/zh/news/Apache-ShenYu-Committer-2022-04-20"/>
+        <updated>2022-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[你也可以成为Apache ShenYu Committer]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Apache ShenYu 2.4.3 版本发布】]]></title>
+        <id>【Apache ShenYu 2.4.3 版本发布】</id>
+        <link href="https://shenyu.apache.org/zh/news/Apache-ShenYu-release-version-2.4.3"/>
+        <updated>2022-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apache ShenYu 2.4.3 版本发布]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【从在校生到Apache Committer之路】]]></title>
         <id>【从在校生到Apache Committer之路】</id>
