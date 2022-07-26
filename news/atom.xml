@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shenyu.apache.org/news</id>
-    <title>Apache ShenYu (Incubating) Blog</title>
-    <updated>2022-04-20T00:00:00.000Z</updated>
+    <title>Apache ShenYu Blog</title>
+    <updated>2022-07-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shenyu.apache.org/news"/>
-    <subtitle>Apache ShenYu (Incubating) Blog</subtitle>
+    <subtitle>Apache ShenYu Blog</subtitle>
     <icon>https://shenyu.apache.org/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[【From CRUD Boy to Apache ShenYu Committer】]]></title>
+        <id>【From CRUD Boy to Apache ShenYu Committer】</id>
+        <link href="https://shenyu.apache.org/news/Apache-ShenYu-Committer-2022-07-04"/>
+        <updated>2022-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From CRUD Boy to Apache ShenYu Committer]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【You can also be an Apache ShenYu Committer】]]></title>
         <id>【You can also be an Apache ShenYu Committer】</id>

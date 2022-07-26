@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Apache ShenYu (Incubating) Blog</title>
+        <title>Apache ShenYu Blog</title>
         <link>https://shenyu.apache.org/news</link>
-        <description>Apache ShenYu (Incubating) Blog</description>
-        <lastBuildDate>Wed, 20 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <description>Apache ShenYu Blog</description>
+        <lastBuildDate>Mon, 04 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[【From CRUD Boy to Apache ShenYu Committer】]]></title>
+            <link>https://shenyu.apache.org/news/Apache-ShenYu-Committer-2022-07-04</link>
+            <guid>【From CRUD Boy to Apache ShenYu Committer】</guid>
+            <pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[From CRUD Boy to Apache ShenYu Committer]]></description>
+        </item>
         <item>
             <title><![CDATA[【You can also be an Apache ShenYu Committer】]]></title>
             <link>https://shenyu.apache.org/news/Apache-ShenYu-Committer-2022-04-20</link>
